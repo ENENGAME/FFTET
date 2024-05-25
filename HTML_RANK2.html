@@ -62,7 +62,9 @@
       var spreadsheetId = '1nfJyFC7Coxlq4vsOULWyaZm7KqbGypOFpXaNq4-b_FM';
       var sheetName = 'TEAM12';
       var url = 'https://sheets.googleapis.com/v4/spreadsheets/' + spreadsheetId + '/values/' + sheetName + '?key=' + apiKey;
+      var defaultImage = 'https://enengame.github.io/FFTET/default.png'; // 預設圖片的路徑
 
+      
       // 定義更新函數，用於從 Google 試算表獲取最新資料並更新表格
       function updateTable() {
         // 通過 AJAX 請求從 Google 試算表中獲取資料
